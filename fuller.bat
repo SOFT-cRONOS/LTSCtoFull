@@ -17,13 +17,13 @@ pause
 goto menu
 
 :enterprise
-xcopy /s /i /y "content\Enterprise\*" "C:\Windows\System32\spp\tokens\skus"
+xcopy /s /i /y "C:\LTSCtoFull-main\content\Enterprise\*" "C:\Windows\System32\spp\tokens\skus"
 echo Contenido copiado de Enterprise.
 pause
 goto fuller
 
 :enterprises
-xcopy /s /i /y "content\EnterpriseS\*" "C:\Windows\System32\spp\tokens\skus"
+xcopy /s /i /y "C:\LTSCtoFull-main\content\EnterpriseS\*" "C:\Windows\System32\spp\tokens\skus"
 echo Contenido copiado de EnterpriseS.
 pause
 goto fuller
